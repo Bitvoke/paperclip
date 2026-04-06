@@ -16,3 +16,6 @@ services:
       BETTER_AUTH_SECRET: "${BETTER_AUTH_SECRET:?BETTER_AUTH_SECRET must be set}"
     volumes:
       - paperclip_data:/paperclip
+
+volumes:
+  paperclip_data:
